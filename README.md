@@ -1,5 +1,7 @@
 # thoughtworks_作业_迷宫
 ## 宋日成_四川大学_2019届硕士_通信与信息系统
-* RoadMap.h 类RoadMap的定义
-* RoadMap.cpp 类RoadMap的实现：连接与渲染
-* mian.cpp 程序入口，实现输入输出及报错
+* RoadMap.h 类RoadMap的定义，成员包括二维vector存储的网格地图及其长宽
+* RoadMap.cpp 类RoadMap的实现：输入参数判断、连接、渲染
+* points.h 定义点和点对结构体，便于处理点坐标数据
+* mian.cpp 程序入口，实现输入输出
+*Windows上编译连接后运行方法：main.exe 3 3 "0,1 0,2;0,0 1,0;0,1 1,1;0,2 1,2;1,0 1,1;1,1 1,2;1,1 2,1;1,2 2,2;2,0 2,1"
